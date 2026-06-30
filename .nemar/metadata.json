@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007605",
-  "source": "openneuro",
-  "source_id": "ds007605",
+  "pipeline_stage": "enriched",
   "title": "EPOC",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "[\"Christian Neumann\"": {},
     "\"Johanna Geritz\"": {},
@@ -11,27 +11,121 @@
     "\"Walter Maetzler\"": {},
     "\"Julius Welzel\"]": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007605.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007605",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007605",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007605",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "[\"COVIDOM and Neurogeriatrics\"]"
+    },
+    {
+      "funder_name": "COVIDOM"
+    },
+    {
+      "funder_name": "Neurogeriatrics"
+    },
+    {
+      "funder_name": "National Pandemic Cohort Network (NAPKON)"
     }
   ],
-  "acknowledgements": "n/a"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "The EPOC dataset comprises electroencephalography (EEG) recordings and cognitive/behavioral assessments from 98 participants recruited from the COVIDOM/NAPKON-POP longitudinal study of post-COVID-19 sequelae. Participants completed a battery of computerized cognitive tasks (including the Psychomotor Vigilance Task and n-back), resting-state EEG recording, Trail Making Test, and standardized questionnaires assessing fatigue, anxiety, depression, and sleep quality. The dataset investigates neurophysiological correlates of post-COVID-19 cognitive symptoms using 128-channel EEG acquisition. Data collection occurred from July 2023 to July 2025 at the Department of Neurology, University Hospital Schleswig-Holstein, Kiel.",
+  "methods_description": "EEG was recorded using a 128-channel equidistant electrode cap (Easycap) with an actiCHamp Plus amplifier at 1000 Hz sampling rate and 0.1 μV amplitude resolution. Electrode impedances were maintained below 20 kΩ with nose reference and two EOG electrodes positioned diagonally beneath each eye. Participants completed the Trail Making Test, cognitive task battery (n-back, Psychomotor Vigilance Task, MoCA, and resting-state measurement), and questionnaires assessing fatigue (FACIT-Fatigue), anxiety and depression (HADS), and sleep quality (PSQI). Participants were recruited from the COVIDOM/NAPKON-POP longitudinal study and completed a single laboratory visit at the Department of Neurology, University Hospital Schleswig-Holstein, Kiel. Missing data occurred for n-back (n=4), PVT (n=1), MoCA (n=1), FACIT-Fatigue (n=2), HADS-D (n=3), HADS-A (n=1), PSQI (n=6), and EEG recordings (n=3) due to time constraints, health issues, technical problems, or incomplete responses.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "post-COVID-19"
+    },
+    {
+      "term": "COVID-19"
+    },
+    {
+      "term": "SARS-CoV-2"
+    },
+    {
+      "term": "cognitive symptoms"
+    },
+    {
+      "term": "fatigue"
+    },
+    {
+      "term": "psychomotor vigilance task"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "neurophysiology"
+    },
+    {
+      "term": "n-back"
+    },
+    {
+      "term": "Trail Making Test"
+    },
+    {
+      "term": "anxiety"
+    },
+    {
+      "term": "depression"
+    },
+    {
+      "term": "COVIDOM"
+    },
+    {
+      "term": "NAPKON"
+    },
+    {
+      "term": "Montreal Cognitive Assessment"
+    },
+    {
+      "term": "Hospital Anxiety and Depression Scale"
+    },
+    {
+      "term": "Pittsburgh Sleep Quality Index"
+    },
+    {
+      "term": "longitudinal study"
+    },
+    {
+      "term": "cohort study"
+    }
+  ],
+  "source_hash": "27bae3bfc01fd05760ec7debab45699d1532c2c191886ebc15af9ea548fa1355"
 }
