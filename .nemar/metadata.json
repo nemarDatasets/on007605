@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EPOC",
-  "description": "The EPOC dataset comprises electroencephalography (EEG) recordings and cognitive/behavioral assessments from 98 participants recruited from the COVIDOM/NAPKON-POP longitudinal study to investigate neurophysiological correlates of post-COVID-19 syndrome. Participants completed a single laboratory session including the Trail Making Test, a battery of computerized cognitive tasks (n-back, psychomotor vigilance task, Montreal Cognitive Assessment), resting-state EEG recording, and self-report questionnaires assessing fatigue, anxiety, depression, and sleep quality. The study stratified participants based on self-reported cognitive symptoms to examine potential neurophysiological differences associated with post-COVID-19 symptomatology.",
-  "methods_description": "EEG was recorded using a 128-channel equidistant electrode cap (Easycap) with an actiCHamp Plus amplifier at 1000 Hz sampling rate and 0.1 μV amplitude resolution. Electrode impedances were maintained below 20 kΩ, with reference electrode on the nose and two EOG electrodes positioned diagonally beneath each eye. Participants completed cognitive tasks including the Psychomotor Vigilance Task, n-back task, and Montreal Cognitive Assessment, along with the Trail Making Test. Fatigue was assessed using the FACIT-Fatigue subscale, anxiety and depression using the Hospital Anxiety and Depression Scale (HADS), and sleep quality using the Pittsburgh Sleep Quality Index (PSQI).",
+  "description": "This dataset comprises 128-channel EEG recordings from 98 participants recruited from the COVIDOM/NAPKON-POP cohort, all with a history of confirmed SARS-CoV-2 infection. The study investigates neurophysiological correlates of Post-COVID-19 condition, focusing on self-reported cognitive symptoms, fatigue, anxiety, depression, and sleep quality. Participants underwent EEG recording during resting-state and cognitive tasks including a Psychomotor Vigilance Task, alongside standardized questionnaires (FACIT-Fatigue, HADS, PSQI) and neuropsychological testing.",
+  "methods_description": "EEG was recorded using a 128-channel equidistant electrode cap (Easycap GmbH) with an actiCHamp Plus amplifier (Brain Products GmbH) at a sampling rate of 1000 Hz and amplitude resolution of 0.1 μV. Electrode impedances were maintained below 20 kΩ, with a nose reference and two diagonally placed EOG electrodes beneath each eye. Participants completed the Trail Making Test, EEG recording during cognitive tasks and resting-state, and post-session questionnaires assessing fatigue, depression, anxiety, and sleep quality.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,58 +18,41 @@
       "term": "EEG"
     },
     {
-      "term": "post-COVID-19"
+      "term": "Post-COVID-19 condition"
     },
     {
-      "term": "long COVID"
+      "term": "SARS-CoV-2",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000086402"
     },
     {
-      "term": "cognitive impairment"
+      "term": "COVID-19",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000086382"
     },
     {
-      "term": "fatigue"
+      "term": "Fatigue",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005221"
     },
     {
-      "term": "anxiety"
+      "term": "cognitive symptoms"
     },
     {
-      "term": "depression"
+      "term": "Anxiety",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001007"
+    },
+    {
+      "term": "Depression",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
     },
     {
       "term": "sleep quality"
     },
     {
       "term": "psychomotor vigilance task"
-    },
-    {
-      "term": "resting-state EEG"
-    },
-    {
-      "term": "n-back task"
-    },
-    {
-      "term": "Trail Making Test"
-    },
-    {
-      "term": "Montreal Cognitive Assessment"
-    },
-    {
-      "term": "FACIT-Fatigue"
-    },
-    {
-      "term": "Hospital Anxiety and Depression Scale"
-    },
-    {
-      "term": "Pittsburgh Sleep Quality Index"
-    },
-    {
-      "term": "neurophysiology"
-    },
-    {
-      "term": "COVIDOM"
-    },
-    {
-      "term": "NAPKON"
     }
   ],
   "related_identifiers": [
@@ -100,12 +83,6 @@
     },
     {
       "funder_name": "COVIDOM and Neurogeriatrics"
-    },
-    {
-      "funder_name": "National Pandemic Cohort Network (NAPKON)"
-    },
-    {
-      "funder_name": "COVIDOM Study"
     }
   ],
   "resource_type_general": "Dataset",
