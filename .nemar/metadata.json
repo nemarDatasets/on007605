@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EPOC",
-  "description": "This dataset comprises 128-channel EEG recordings from 98 participants recruited from the COVIDOM/NAPKON-POP cohort, all with a history of confirmed SARS-CoV-2 infection. The study investigates neurophysiological correlates of Post-COVID-19 condition, focusing on self-reported cognitive symptoms, fatigue, anxiety, depression, and sleep quality. Participants underwent EEG recording during resting-state and cognitive tasks including a Psychomotor Vigilance Task, alongside standardized questionnaires (FACIT-Fatigue, HADS, PSQI) and neuropsychological testing.",
-  "methods_description": "EEG was recorded using a 128-channel equidistant electrode cap (Easycap GmbH) with an actiCHamp Plus amplifier (Brain Products GmbH) at a sampling rate of 1000 Hz and amplitude resolution of 0.1 μV. Electrode impedances were maintained below 20 kΩ, with a nose reference and two diagonally placed EOG electrodes beneath each eye. Participants completed the Trail Making Test, EEG recording during cognitive tasks and resting-state, and post-session questionnaires assessing fatigue, depression, anxiety, and sleep quality.",
+  "description": "EEG dataset investigating neurophysiological correlates of Post-COVID-19 condition in adults recruited from the COVIDOM/NAPKON-POP cohort in Schleswig-Holstein. Participants (N = 98) with prior PCR-confirmed SARS-CoV-2 infection completed a battery of computerized cognitive tasks, including a psychomotor vigilance task, and a resting-state recording. Questionnaires on fatigue, anxiety, depression and sleep quality are included, and participants are grouped by presence or absence of self-reported cognitive symptoms. EEG recordings are missing for 3 participants (missing or corrupted files, or incomplete sessions).",
+  "methods_description": "Single-visit laboratory study. Participants completed the Trail Making Test, then EEG was recorded with a 128-channel equidistant actiCHamp Plus system (Brain Products, Easycap cap) at 1000 Hz, with a nose reference, two EOG electrodes and impedances below 20 kΩ. They then performed four computerized cognitive tasks and a resting-state measurement, followed by questionnaires (FACIT-Fatigue, HADS, PSQI).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,20 +15,14 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
-      "term": "Post-COVID-19 condition"
-    },
-    {
-      "term": "SARS-CoV-2",
+      "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000086402"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "COVID-19",
+      "term": "Post-Acute COVID-19 Syndrome",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000086382"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000094024"
     },
     {
       "term": "Fatigue",
@@ -36,23 +30,25 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D005221"
     },
     {
+      "term": "psychomotor vigilance task"
+    },
+    {
       "term": "cognitive symptoms"
     },
     {
-      "term": "Anxiety",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001007"
+      "term": "resting state"
     },
     {
-      "term": "Depression",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
+      "term": "COVIDOM"
+    },
+    {
+      "term": "NAPKON"
     },
     {
       "term": "sleep quality"
     },
     {
-      "term": "psychomotor vigilance task"
+      "term": "anxiety and depression"
     }
   ],
   "related_identifiers": [
@@ -91,7 +87,7 @@
     "eeg"
   ],
   "sizes": [
-    "23.2 GB (292 files)"
+    "21.65 GB (292 files)"
   ],
   "formats": [
     ".eeg",
